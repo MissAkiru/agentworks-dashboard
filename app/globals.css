@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bg0 text-ink;
+  }
+  ::selection {
+    @apply bg-gold text-bg0;
+  }
+}
+
+@layer components {
+  .label {
+    @apply font-mono text-[11px] uppercase tracking-label text-gold;
+  }
+  .panel {
+    @apply border border-line bg-bg1;
+  }
+  .panel-head {
+    @apply flex items-center justify-between border-b border-line px-5 py-3;
+  }
+  .panel-head span {
+    @apply font-mono text-[10px] uppercase tracking-label text-faint;
+  }
+  .field-input {
+    @apply w-full border border-line2 bg-bg0 px-3 py-2 font-mono text-sm text-ink focus:border-gold focus:outline-none;
+  }
+  .btn-gold {
+    @apply cursor-pointer border border-gold bg-gold px-5 py-2 font-mono text-[11px] uppercase tracking-widest text-bg0 transition-colors hover:bg-goldb;
+  }
+  .btn-ghost {
+    @apply cursor-pointer border border-line2 px-5 py-2 font-mono text-[11px] uppercase tracking-widest text-mute transition-colors hover:border-gold hover:text-gold;
+  }
+}

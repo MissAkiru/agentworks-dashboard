@@ -1,0 +1,78 @@
+{
+  "updated_at": "2026-09-23T00:00:00.000Z",
+  "note": "SEED DATA — MRR figures and next actions are placeholders set during the overnight build. Confirm or correct in the Ventures tab; edits persist to this file.",
+  "ventures": [
+    {
+      "id": "founder-site",
+      "name": "Akiru Systems (brand)",
+      "lane": "Brand",
+      "status": "Live",
+      "next_action": "Netlify drag-drop deploy + Squarespace DNS cutover",
+      "mrr": 0,
+      "last_touched": "2026-09-23"
+    },
+    {
+      "id": "cart402",
+      "name": "Cart402",
+      "lane": "Product",
+      "status": "Raising",
+      "next_action": "Colosseum decision (this week) + Base Batches 005 application prep",
+      "mrr": 0,
+      "last_touched": "2026-09-23"
+    },
+    {
+      "id": "onyx-circle",
+      "name": "Onyx Circle",
+      "lane": "Private",
+      "status": "Private",
+      "next_action": "No public action — referral list only",
+      "mrr": 0,
+      "last_touched": "2026-09-23"
+    },
+    {
+      "id": "navigator",
+      "name": "Navigator",
+      "lane": "Service",
+      "status": "Live",
+      "next_action": "Fold two SME audits in under the main brand",
+      "mrr": 800,
+      "last_touched": "2026-09-23"
+    },
+    {
+      "id": "persuasion-lab",
+      "name": "Persuasion Lab",
+      "lane": "Product",
+      "status": "Building",
+      "next_action": "Finish research frame; first internal brief",
+      "mrr": 0,
+      "last_touched": "2026-09-23"
+    },
+    {
+      "id": "digital-web-factory",
+      "name": "Digital Web Factory",
+      "lane": "Service",
+      "next_action": "Quote two open leads",
+      "status": "Live",
+      "mrr": 2400,
+      "last_touched": "2026-09-23"
+    },
+    {
+      "id": "hok-studio",
+      "name": "Akiru Systems Studio",
+      "lane": "Service",
+      "status": "Live",
+      "next_action": "Ship the publishing pipeline for the next client",
+      "mrr": 600,
+      "last_touched": "2026-09-23"
+    },
+    {
+      "id": "signal",
+      "name": "SIGNAL",
+      "lane": "Product",
+      "status": "Building",
+      "next_action": "Define the first three public-data watchers",
+      "mrr": 0,
+      "last_touched": "2026-09-23"
+    }
+  ]
+}
